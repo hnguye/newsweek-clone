@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Newsweek</title>
+</head>
+
+<body>
+  <header class="main-header container p-0">
+    <div class="hero d-flex align-items-end justify-content-between">
+      <div class="ml-4 d-lg-block d-none">
+        <time></time>
+      </div>
+      <div class="logo">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" xml:space="preserve">
+          <g>
+            <path d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2   L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11 c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6   H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13   c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8   c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2   C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7  h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4    c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1  c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6    c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6   C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5 h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9    c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2    c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9  C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1   c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6    v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3  c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5    h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+          </g>
+        </svg>
+      </div>
+      <div class="auth d-flex align-items-center align-self-center">
+        <a href="#">SIGN IN</a>
+        <a href="#">
+          SUBSCRIBE
+          <i class="icon i-right-arrow-r d-none"></i>
+        </a>
+        <div class="menu-icon d-lg-none">
+          <div class="menu-bar"></div>
+          <div class="menu-bar"></div>
+          <div class="menu-bar"></div>
+        </div>
+      </div>
+    </div>
+    <nav class="main-nav d-lg-flex d-none">
+      <ul class="m-0">
+        <li><a href="#">U.S.</a></li>
+        <li><a href="#">World</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Tech & Science</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Newsgeek</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">The Debate</a></li>
+        <li><a href="#">Vantage</a></li>
+        <li><a href="#">Weather</a></li>
+        <li>
+          <label class="d-flex align-self-center m-0" for="search-input">
+            <input id="search-input" type="text" placeholder="Search" />
+            <i class="icon i-search align-self-end"></i>
+          </label>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container d-flex flex-column">
+    <div class="row pt-3">
+      <div class="left-side order-2 order-md-0 order-lg-0 col-12 col-md-5 col-lg-3">
+        <section class="featured-section bar">
+          <h2>FEATURED STORIES</h2>
+          <article>
+            <figure>
+              <a href="#">
+                <img src="https://d.newsweek.com/en/full/1627491/jerry-falwell-jr.webp?w=397&h=265&q=90&f=e05c4aa39ff3a2b4c8f12a369b0cc136" />
+              </a>
+              <div class="category">
+                <a href="#">U.S</a>
+              </div>
+            </figure>
+            <header>
+              <h3>
+                <a href="#">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada porta urna aliquet viverra.
+                </a>
+              </h3>
+              <p>
+                Suspendisse ullamcorper nibh sit amet ex porta tempus. Sed eu varius arcu. Sed dignissim efficitur tellus, feugiat mattis quam hendrerit quis.
+              </p>
+            </header>
+          </article>
+          <article>
+            <figure>
+              <a href="#">
+                <img src="https://d.newsweek.com/en/full/1627491/jerry-falwell-jr.webp?w=397&h=265&q=90&f=e05c4aa39ff3a2b4c8f12a369b0cc136" />
+              </a>
+              <div class="category">
+                <a href="#">U.S</a>
+              </div>
+            </figure>
+            <header>
+              <h3>
+                <a href="#">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada porta urna aliquet viverra.
+                </a>
+              </h3>
+              <p>
+                Suspendisse ullamcorper nibh sit amet ex porta tempus. Sed eu varius arcu. Sed dignissim efficitur tellus, feugiat mattis quam hendrerit quis.
+              </p>
+            </header>
+          </article>
+          <article>
+            <figure>
+              <a href="#">
+                <img src="https://d.newsweek.com/en/full/1627491/jerry-falwell-jr.webp?w=397&h=265&q=90&f=e05c4aa39ff3a2b4c8f12a369b0cc136" />
+              </a>
+              <div class="category">
+                <a href="#">U.S</a>
+              </div>
+            </figure>
+            <header>
+              <h3>
+                <a href="#">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada porta urna aliquet viverra.
+                </a>
+              </h3>
+              <p>
+                Suspendisse ullamcorper nibh sit amet ex porta tempus. Sed eu varius arcu. Sed dignissim efficitur tellus, feugiat mattis quam hendrerit quis.
+              </p>
+            </header>
+          </article>
+          <article>
+            <figure>
+              <a href="#">
+                <img src="https://d.newsweek.com/en/full/1627491/jerry-falwell-jr.webp?w=397&h=265&q=90&f=e05c4aa39ff3a2b4c8f12a369b0cc136" />
+              </a>
+              <div class="category">
+                <a href="#">U.S</a>
+              </div>
+            </figure>
+            <header>
+              <h3>
+                <a href="#">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada porta urna aliquet viverra.
+                </a>
+              </h3>
+              <p>
+                Suspendisse ullamcorper nibh sit amet ex porta tempus. Sed eu varius arcu. Sed dignissim efficitur tellus, feugiat mattis quam hendrerit quis.
+              </p>
+            </header>
+          </article>
+        </section>
+        <section class="sponsored-section bar">
+          <article>
+            <figure>
+              <a href="#">
+                <img src="https://d.newsweek.com/en/full/1627489/census-participation-rate-refusing-2020.webp?w=397&h=265&q=90&f=b58ad66ac88078914b6661ecc4d8a9a1" />
+              </a>
+              <div class="category sponsored">
+                <a href="#">SPONSORED INSIGHT</a>
+              </div>
+            </figure>
+            <header>
+              <h3>
+                <a href="#">
+                  Sed congue velit ex, porttitor imperdiet tellus viverra nec.
+                </a>
+              </h3>
+              <p>
+                Nulla egestas lectus non est aliquet pellentesque. Sed urna mi, dapibus quis metus a, sollicitudin lacinia eros
+              </p>
+            </header>
+          </article>
+          <article>
+            <figure>
+              <a href="#">
+                <img src="https://d.newsweek.com/en/full/1551968/university-texas-el-paso.jpg?w=343&h=229&f=27929f494a86f92777e982d66aa045fe" Nurses" />
+              </a>
+              <div class="category sponsored">
+                <a href="#">SPONSORED INSIGHT</a>
+              </div>
+            </figure>
+            <header>
+              <h3>
+                <a href="#">
+                  Nurses - The Real Medical Heroes of 2020
+                </a>
+              </h3>
+              <p>
+                We’re used to doctors bustling in and out when in hospital,
+                but it’s the reassuring presence and professionalism of the
+                nursing staff that we rely on. What sets the best ones apart?
+              </p>
+            </header>
+          </article>
+          <article>
+            <figure>
+              <a href="#">
+                <img src="https://d.newsweek.com/en/full/1563523/meet-adam-lambert-new-york-city.png?w=343&h=229&f=5650ee55eada1c2dbd4be78a28f9d8d0" Adam Lambert " />
+              </a>
+              <div class=" category sponsored">
+                <a href="#">NYC</a>
+      </div>
+      </figure>
+      <header>
+        <h3>
+          <a href="#">
+            Meet Adam Lambert in New York City!
+          </a>
+        </h3>
+        <p>
+          Enter the sweepstake for your chance to meet music sensation
+          Adam Lambert and attend the live taping of his appearance on
+          Newsweek Conversations.
+        </p>
+      </header>
+      </article>
+      </section>
+    </div>
+    <div class="middle col d-flex flex-column col-12 col-md-7 col-lg-5">
+      <section class="top-story-section">
+        <h2>TOP STORY</h2>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567501/william-barr.jpg?w=591&h=364&f=6697efd36a1ccd3b9e176486037a6514" Attorney General William Barr" />
+            <div class="category">
+              <a href="#">POLITICS</a>
+            </div>
+          </figure>
+          <header>
+            <h1>
+              <a href="#">
+                Attorney General William Barr's Actions Are 'Remarkably Not
+                Normal,' Legal Historian Says
+              </a>
+            </h1>
+            <p>
+              Barr's intervention in Roger Stone's case, says Jed Shugerman,
+              was "yet another breach of norms in a pattern with Trump and
+              Barr."
+            </p>
+          </header>
+        </article>
+      </section>
+      <section class="culture-and-travel-section bar order-3 order-md-2">
+        <h2>
+          CULTURE & TRAVEL
+        </h2>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1552293/cul-map-underwater-banner.jpg?w=397&h=265&f=556690dba11324f197a04f43aadde8fa" Underwater Art" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Sed congue velit ex, porttitor imperdiet tellus viverra nec.
+              </a>
+            </h3>
+            <p>
+              Sed congue velit ex, porttitor imperdiet tellus viverra nec. Suspendisse quam lorem, pellentesque eu massa scelerisque, placerat fringilla nibh. Curabitur vulputate convallis mi, at vestibulum mauris commodo id. Curabitur faucibus maximus erat, vel pulvinar tortor pellentesque nec. Phasellus eu nibh elit.
+            </p>
+            <div class="mini-category">
+              <a href="#">Travel</a>
+            </div>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1626534/belarus-military-drills-border-unrest.webp?w=397&h=265&f=d006d0f247d60af767f7a2a6fe4ccf6c" Robots" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                In Cognac, Robots Run the Vines
+              </a>
+            </h3>
+            <p>
+              Vineyard technology is extending from robots to the creation
+              of a new type of disease-resistant grape that may be the
+              solution for the wine region's future production.
+            </p>
+            <div class="mini-category">
+              <a href="#">Vineyards</a>
+            </div>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1564962/cul-map-undergroundsubways-09-91029419.jpg?w=397&h=265&f=c75ea7fe40bca26ffbb19f21fccf1054" Subway Stations" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Subway Stations That Will Stop You in Your Tracks
+              </a>
+            </h3>
+            <p>
+              From space-age designs to murals, artists and architects have
+              transformed these 10 stunning stations around the world into
+              contemplative and artistic spaces.
+            </p>
+            <div class="mini-category">
+              <a href="#">Architecture</a>
+            </div>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1556716/twa-hotel.jpg?w=397&h=265&f=7af1ce5444b4a2b638b278b6207aeb3a" Airport Restaurants" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Airport Restaurants Worthy of a Layover
+              </a>
+            </h3>
+            <p>
+              We're living in a golden age of airport dining. Maybe someday
+              travelers in economy class will be so lucky to eat better food
+              on flights. Until that happens, you can have an epicurean
+              feast at the airport before your flight and smugly pass on the
+              chicken or pasta option on board the plane.
+            </p>
+            <div class="mini-category">
+              <a href="#">Travel</a>
+            </div>
+          </header>
+        </article>
+      </section>
+      <section class="more-stories-section bar order-2 order-md-3">
+        <h2>MORE STORIES</h2>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567605/diamond-princess-cruises-coronavirus-covid-19-2019-ncov.jpg?w=790&f=0782c5467969591256f0bcb15d998e69" U.S. Passengers " />
+            </figure>
+            <header>
+              <h3>
+                <a href=" #">
+            Vivamus iaculis, quam et ornare eleifend, ipsum tellus convallis urna, non placerat lectus mauris ullamcorper orci.
+            </a>
+            </h3>
+            <p>
+              Vivamus iaculis, quam et ornare eleifend, ipsum tellus convallis urna, non placerat lectus mauris ullamcorper orci.
+            </p>
+            </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567609/bernie-sanders.jpg?w=790&f=209d12d6e40dd07955097a4205ba7726" Democratic Socialist" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Donec id semper dui. Suspendisse quam sapien, egestas at tellus id, convallis venenatis sem
+              </a>
+            </h3>
+            <p>
+              Donec id semper dui. Suspendisse quam sapien, egestas at tellus id, convallis venenatis sem
+            </p>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567606/afghanistan-peace-deal-taliban-february-finalized-signed.jpg?w=790&f=2e3ce66e9d8183266124f581ea1aa0f6" Taliban" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                TPhasellus eu nibh elit. Curabitur tellus lectus, viverra nec nulla quis, cursus pharetra diam.
+              </a>
+            </h3>
+            <p>
+              Phasellus eu nibh elit. Curabitur tellus lectus, viverra nec nulla quis, cursus pharetra diam. Phasellus eu nibh elit. Curabitur tellus lectus, viverra nec nulla quis, cursus pharetra diam.
+            </p>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567245/joe-biden-bernie-sanders-2020-polls.jpg?w=790&f=23821ad5ac3ec4bd7e97603980d7e7cc" Joe Biden" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Vivamus iaculis, quam et ornare eleifend, ipsum tellus convallis urna, non placerat lectus mauris ullamcorper orci.
+              </a>
+            </h3>
+            <p>
+              Vivamus iaculis, quam et ornare eleifend, ipsum tellus convallis urna, non placerat lectus mauris ullamcorper orci. Vivamus iaculis, quam et ornare eleifend, ipsum tellus convallis urna, non placerat lectus mauris ullamcorper orci.
+            </p>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567538/rudy-giuliani-mike-bloomberg.jpg?w=790&f=3c97e7c7d6b03476d3ef338f1f371426" Giuliani Criticizes Bloomberg" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Giuliani Criticizes Bloomberg for Backtracking on
+                'Stop-and-Frisk'
+              </a>
+            </h3>
+            <p>
+              "What is this stuff that he's condemning stop-and-frisk?"
+              Trump's personal lawyer asked.
+            </p>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1565088/buttigieg-husband.jpg?w=790&f=033969c8383fbcff3b6e3d030f3b8438" Buttigieg" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Nulla egestas lectus non est aliquet pellentesque. Sed urna mi, dapibus quis metus a, sollicitudin lacinia eros.
+              </a>
+            </h3>
+            <p>
+              Nulla egestas lectus non est aliquet pellentesque. Sed urna mi, dapibus quis metus a, sollicitudin lacinia eros. Sed eget nisl eleifend, convallis augue vitae, sagittis sem. Integer vulputate, enim a posuere faucibus, velit massa luctus quam, id lacinia sem quam at dui.
+            </p>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567582/tom-cotton.jpg?w=790&f=386151307ea13d5ae057f0d0838ff215" Cotton" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Maecenas neque lorem, accumsan sed pulvinar vitae, tincidunt vitae arcu
+              </a>
+            </h3>
+            <p>
+              Phasellus vehicula libero eu luctus sagittis. Donec leo quam, finibus vel dolor quis, facilisis imperdiet purus. Nulla odio nisl, aliquet ac facilisis vel, dictum sit amet justo.
+            </p>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567537/alexandria-ocasio-cortez.jpg?w=790&f=c002e05d564fc3d0b65974ceb05c5b66" AOC" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Phasellus sem lectus, consequat vel diam at, cursus lacinia elit.
+              </a>
+            </h3>
+            <p>
+              Quisque dapibus quis tortor sed efficitur. Nulla finibus euismod elementum. Sed eu metus ac magna gravida facilisis non sit amet nisl. Quisque lobortis dapibus dapibus.
+            </p>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1565775/ice-agent.jpg?w=790&f=f7f4dbf24a800ca39743e5d3765b7f39" Orange County" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Vivamus tincidunt turpis nec leo porttitor condimentum.
+              </a>
+            </h3>
+            <p>
+              Nulla nec elit a elit semper aliquet. Maecenas ullamcorper efficitur lorem sed molestie. Etiam et est ut ligula porta iaculis. Praesent in diam vitae dolor vulputate pretium sit amet ac diam.
+            </p>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567514/bernie-sanders-nevada-rally.jpg?w=790&f=9aada22b1c45db6281219787a418a7ab" Bernie Sanders" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Curabitur lobortis placerat ipsum id tempor.
+              </a>
+            </h3>
+            <p>
+              Pellentesque in nibh velit. Nullam blandit eu dolor feugiat commodo. Vestibulum hendrerit metus placerat erat molestie euismod. Fusce blandit sodales nibh, sed hendrerit eros hendrerit at.
+            </p>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567567/tony-fernandez.jpg?w=790&f=7663777b710cd34c47a7bf677cf52967" Baseball" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Vivamus iaculis, quam et ornare eleifend, ipsum tellus convallis urna, non placerat lectus mauris ullamcorper orci.
+              </a>
+            </h3>
+            <p>
+              Vivamus iaculis, quam et ornare eleifend, ipsum tellus convallis urna, non placerat lectus mauris ullamcorper orci.
+            </p>
+          </header>
+        </article>
+      </section>
+    </div>
+    <div class="right-side order-3 col-12 col-lg-4">
+      <section class="opinion-section bar">
+        <h2>OPINION</h2>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1515495/donna-rotunno.jpg?w=63&h=63&f=3b5060e1ccad0bd149ca73208415dbc3" DONNA ROTUNNO" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Donec id semper dui. Suspendisse quam sapien, egestas at tellus id, convallis venenatis sem.
+              </a>
+            </h3>
+            <h4>BY SOMEONE FAMOUS</h4>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567370/schultz-miller.png?w=63&h=63&f=08cb1e5f21334b146a1536ba512a3e02" DEBBIE WASSERMAN SCHULTZ AND SHEILA KATZ" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Saecenas ac libero ornare, ornare libero eget, dignissim erat.
+              </a>
+            </h3>
+            <h4>BY SOMEONE NOT FAMOUS</h4>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567126/joel-whitney.png?w=63&h=63&f=8666873acf66ed24bd6230dacfcc0259" JOEL WHITNEY" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Ut eu erat at mauris sagittis ornare. Aliquam tincidunt leo leo, vel consectetur ex fringilla a. Curabitur blandit consectetur augue a maximus.
+              </a>
+            </h3>
+            <h4>BY BI BAYB EBIBE</h4>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567141/rachel-fishman-clare-mccann.png?w=63&h=63&f=15ca5fd63531da14d01e3988956f416b" RACHEL FISHMAN AND CLARE MCCANN" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Ut eu erat at mauris sagittis ornare. Aliquam tincidunt leo leo, vel consectetur ex fringilla a.
+              </a>
+            </h3>
+            <h4>BY MCAIN</h4>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77" NEWT GINGRICH" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Ut eu erat at mauris sagittis ornare. Aliquam tincidunt leo leo, vel consectetur ex fringilla a.
+              </a>
+            </h3>
+            <h4>BY MAXIUMUS SHLWERS</h4>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/100577/daniel-r-depetris.png?w=63&h=63&f=557e36e1b094f95cf0416216ba9ecaa7" DANIEL R. DEPETRIS" />
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Ut eu erat at mauris sagittis ornare. Curabitur blandit consectetur augue a maximus.
+              </a>
+            </h3>
+            <h4>BY ALEX DELLAGIACOMA</h4>
+          </header>
+        </article>
+      </section>
+      <section class="latest-news-section bar">
+        <h2>LATEST NEWS</h2>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567349/starbuck-san-franciso-california-2004.jpg?w=397&h=265&f=05f301776e7382cf31b528867b30a1e2" Starbucks" />
+          </figure>
+          <h3>
+            <a href="#">
+              Vestibulum hendrerit metus placerat erat molestie euismod. Fusce blandit sodales nibh, sed hendrerit eros hendrerit at.
+            </a>
+          </h3>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567601/ted-cruz.jpg?w=397&h=265&l=0&t=0&f=e3280fc0fa67c00d62dfd7f1ca1defc1" Ted Cruz" />
+          </figure>
+          <h3>
+            <a href="#">
+              Vestibulum hendrerit metus placerat erat molestie euismod. Fusce blandit sodales nibh, sed hendrerit eros hendrerit at.
+            </a>
+          </h3>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567367/equinox-gym-berkeley-california-september-2018.jpg?w=397&h=265&f=51184900e83e97a123a23786021972bc" the Gym" />
+          </figure>
+          <h3>
+            <a href="#">
+              Vestibulum hendrerit metus placerat erat molestie euismod. Fusce blandit sodales nibh, sed hendrerit eros hendrerit at.
+            </a>
+          </h3>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567360/istock-fast-food-open-presidents-day.jpg?w=397&h=265&f=8ffc86e40b8ee3927a5551bdd3df8b1f" Presidents Day" />
+          </figure>
+          <h3>
+            <a href="#">
+              Vestibulum hendrerit metus placerat erat molestie euismod. Fusce blandit sodales nibh, sed hendrerit eros hendrerit at.
+            </a>
+          </h3>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567322/groceries.jpg?w=397&h=265&f=4a2c5fceeb5eded5f1338b2973e80946" Grocery Store" />
+          </figure>
+          <h3>
+            <a href="#">
+              Vestibulum hendrerit metus placerat erat molestie euismod. Fusce blandit sodales nibh, sed hendrerit eros hendrerit at.
+            </a>
+          </h3>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567296/atm.jpg?w=397&h=265&f=55d09cfb6fbf8016949b86d062cafdda" Banks" />
+          </figure>
+          <h3>
+            <a href="#">
+              Are Banks Open on Presidents Day?
+            </a>
+          </h3>
+        </article>
+        <article>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1567077/istock-shopping-presidents-day.jpg?w=397&h=265&f=3e8104c7cecde4a85ab6c85d3fb43422" Walmart" />
+          </figure>
+          <h3>
+            <a href="#">
+              Presidents' Day Sales: Deals at Walmart, Best Buy, Macy's and
+              More
+            </a>
+          </h3>
+        </article>
+      </section>
+      <section class="sponsored-section bar">
+        <article>
+          <figure>
+            <a href="#">
+              <img src="https://d.newsweek.com/en/full/1561558/saudi-picture.jpg?w=343&h=229&f=c38d1701b1898e7dcc79c2e2dc3aef4a" Saudi Arabia" />
+            </a>
+            <div class="category sponsored">
+              <a href="#">SPONSORED INSIGHT</a>
+            </div>
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                VINDICO SERGO CONTENO PROTEGO
+              </a>
+            </h3>
+            <p>
+              Vestibulum hendrerit metus placerat erat molestie euismod. Fusce blandit sodales nibh, sed hendrerit eros hendrerit at. Vestibulum hendrerit metus placerat erat molestie euismod. Fusce blandit sodales nibh, sed hendrerit eros hendrerit at.
+            </p>
+          </header>
+        </article>
+        <aside class="sign-up">
+          <h3>
+            <div class="icon-wrapper"><i class="icon i-n"></i></div>
+            SIGN UP FOR OUR NEWSLETTER
+          </h3>
+          <a class="sign-up-btn" href="#">SIGN UP <i class="icon i-right-arrow"></i></a>
+          <a href="#">Update your preferences »</a>
+        </aside>
+        <article>
+          <figure>
+            <a href="#">
+              <img src="https://d.newsweek.com/en/full/1563365/american-heritage-school.jpg?w=343&h=229&f=2ceb3765a3e6177511f248f3b5ca7112" Private Education" />
+            </a>
+            <div class="category sponsored">
+              <a href="#">SPONSORED INSIGHT</a>
+            </div>
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Pellentesque imperdiet in velit ac commodo
+              </a>
+            </h3>
+            <p>
+              Vivamus iaculis, quam et ornare eleifend, ipsum tellus convallis urna, non placerat lectus mauris ullamcorper orci. Donec id semper dui. Suspendisse quam sapien, egestas at tellus id, convallis venenatis sem.
+            </p>
+          </header>
+        </article>
+        <article>
+          <figure>
+            <a href="#">
+              <img src="https://d.newsweek.com/en/full/1556493/ohio-northern-university-pettit-college-law.jpg?w=343&h=229&f=83cc4a2b96cbd472e102cf04f99fc5be" Career In Law" />
+            </a>
+            <div class="category sponsored">
+              <a href="#">SPONSORED INSIGHT</a>
+            </div>
+          </figure>
+          <header>
+            <h3>
+              <a href="#">
+                Praesent in diam vitae dolor vulputate pretium sit amet ac diam.
+              </a>
+            </h3>
+            <p>
+              Maecenas neque lorem, accumsan sed pulvinar vitae, tincidunt vitae arcu. Phasellus vehicula libero eu luctus sagittis. Donec leo quam, finibus vel dolor quis, facilisis imperdiet purus. Nulla odio nisl, aliquet ac facilisis vel, dictum sit amet justo.
+            </p>
+          </header>
+        </article>
+      </section>
+    </div>
+    </div>
+    <section class="magazine-section bar">
+      <h2>
+        <div class="icon-wrapper"><i class="icon i-n"></i></div>
+        IN THE MAGAZINE
+      </h2>
+      <article class="most-featured-article">
+        <figure>
+          <a href="#">
+            <img src="https://d.newsweek.com/en/full/1566954/february-21-28-2020-cover.jpg?w=726&h=969&q=90&f=7c69bd300171bb67ad25f06ffc133cd8" Growth" />
+          </a>
+          <div class="category">
+            <a href="#">FEBRUARY 28 ISSUE</a>
+          </div>
+        </figure>
+        <a class="see-all" href="#">
+          SEE ALL FEATURES
+          <i class="icon i-right-arrow-b"></i>
+        </a>
+      </article>
+      <article class="featured-article">
+        <figure>
+          <a href="#" style="
+                background-image: url('https://d.newsweek.com/en/full/1565878/fea-growth-01.jpg?w=466&h=311&q=90&f=b82a1a9dfe5ab417198bc062adcfb0aa');
+              ">
+            <img src="https://d.newsweek.com/en/full/1565878/fea-growth-01.jpg?w=466&h=311&q=90&f=b82a1a9dfe5ab417198bc062adcfb0aa" Growth" />
+          </a>
+        </figure>
+        <div class="category">
+          <span>COVER</span>
+          <a href="#">WORLD</a>
+        </div>
+        <h3><a href="#">Growth Can Be Green. Here's How</a></h3>
+      </article>
+      <article class="featured-article">
+        <figure>
+          <a href="#" style="
+                background-image: url('https://d.newsweek.com/en/full/1566392/new-york-city-manhattanhenge-rising-waiters.jpg?w=466&h=311&q=90&f=97269c51459cb76d9ab8b7e8ed34abd0');
+              ">
+            <img src="https://d.newsweek.com/en/full/1566392/new-york-city-manhattanhenge-rising-waiters.jpg?w=466&h=311&q=90&f=97269c51459cb76d9ab8b7e8ed34abd0" Rising Seas" />
+          </a>
+        </figure>
+        <div class="category">
+          <span>FEATURES</span>
+          <a href="#">NEWS</a>
+        </div>
+        <h3>
+          <a href="#">Lorem ipsum suprendo sorano dagnilige</a>
+        </h3>
+      </article>
+      <article class="featured-article">
+        <figure>
+          <a href="#" style="
+                background-image: url('https://d.newsweek.com/en/full/1565383/fe-presidential-names-01.jpg?w=466&h=311&l=27&t=28&q=90&f=265656a1fc78855627d5f71412792d3e');
+              ">
+            <img src="https://d.newsweek.com/en/full/1565383/fe-presidential-names-01.jpg?w=466&h=311&l=27&t=28&q=90&f=265656a1fc78855627d5f71412792d3e" Beating Obama" />
+          </a>
+        </figure>
+        <div class="category">
+          <span>FEATURES</span>
+          <a href="#">POLITICS</a>
+        </div>
+        <h3>
+          <a href="#">Maecenas neque lorem, accumsan sed pulvinar vitae, tincidunt vitae arcu. </a>
+        </h3>
+      </article>
+      <article class="featured-article">
+        <figure>
+          <a href="#" style="
+                background-image: url('https://d.newsweek.com/en/full/1565860/per-passwords-02.jpg?w=466&h=311&q=90&f=ca3c6feae9effd6ddce1402a7d792d7e');
+              ">
+            <img src="https://d.newsweek.com/en/full/1565860/per-passwords-02.jpg?w=466&h=311&q=90&f=ca3c6feae9effd6ddce1402a7d792d7e" Tips" />
+          </a>
+        </figure>
+        <div class="category">
+          <span>PERISCOPE</span>
+          <a href="#">CULTURE</a>
+        </div>
+        <h3>
+          <a href="#" Nulla odio nisl, aliquet ac facilisis vel, dictum sit amet justo. </a> </h3> </article> <article class="featured-article">
+            <figure>
+              <a href="#" style="
+                background-image: url('https://d.newsweek.com/en/full/1566195/cul-books-01-578945297-banner.jpg?w=466&h=311&l=53&t=47&q=90&f=d8682f476870a28f6620f166adf5cc92');
+              ">
+                <img src="https://d.newsweek.com/en/full/1566195/cul-books-01-578945297-banner.jpg?w=466&h=311&l=53&t=47&q=90&f=d8682f476870a28f6620f166adf5cc92" Books" />
+              </a>
+            </figure>
+            <div class="category">
+              <span>DOWNTIME</span>
+              <a href="#">CULTURE</a>
+            </div>
+            <h3>
+              <a href="#">Sana sana colita de rana. No heal haya heal manana</a>
+            </h3>
+      </article>
+      <article class="featured-article">
+        <figure>
+          <a href="#" style="
+                background-image: url('https://d.newsweek.com/en/full/1566318/cul-ps-ivovanhove-banner.jpg?w=466&h=311&q=90&f=40962469f846fcaef4d7d069eff45bda');
+              ">
+            <img src="https://d.newsweek.com/en/full/1566318/cul-ps-ivovanhove-banner.jpg?w=466&h=311&q=90&f=40962469f846fcaef4d7d069eff45bda" Broadway" />
+          </a>
+        </figure>
+        <div class="category">
+          <span>FEATURES</span>
+          <a href="#">NEWS</a>
+        </div>
+        <h3>
+          <a href="#">Maecenas neque lorem, accumsan sed pulvinar vitae, tincidunt vitae arcu. Phasellus vehicula libero eu luctus sagittis. </a>
+        </h3>
+      </article>
+      <article class="infocus-feature-article">
+        <figure>
+          <a href="#" style="
+                background-image: url('https://d.newsweek.com/en/full/1566164/fighting-back.jpg?w=480&h=320&l=50&t=38&q=90&f=5b4d8c2fbabbe658d0eca206d3951c17');
+              ">
+            <img src="https://d.newsweek.com/en/full/1566164/fighting-back.jpg?w=480&h=320&l=50&t=38&q=90&f=5b4d8c2fbabbe658d0eca206d3951c17" yelling woman" />
+          </a>
+          <div class="category">
+            <a href="#">IN FOCUS</a>
+          </div>
+        </figure>
+        <h3><a href="#">FIGHTING BACK</a></h3>
+      </article>
+    </section>
+    <section class="editors-pick-section bar">
+      <h2>
+        <div class="icon-wrapper"><i class="icon i-n"></i></div>
+        EDITOR'S PICK
+      </h2>
+      <article>
+        <figure>
+          <a href="#">
+            <img src="https://d.newsweek.com/en/full/1567775/president-barack-obama.jpg?w=397&h=295&f=749ef3554b09fe3adf29358a999086a4" Obama" />
+          </a>
+          <div class="category">
+            <a href="#">U.S</a>
+          </div>
+        </figure>
+        <header>
+          <h3>
+            <a href="#">
+              Maecenas neque lorem, accumsan sed pulvinar vitae, tincidunt vitae arcu.
+            </a>
+          </h3>
+          <p>
+            Phasellus vehicula libero eu luctus sagittis. Donec leo quam, finibus vel dolor quis, facilisis imperdiet purus. Nulla odio nisl, aliquet ac facilisis vel, dictum sit amet justo.
+          </p>
+        </header>
+      </article>
+      <article>
+        <figure>
+          <a href="#">
+            <img src="https://d.newsweek.com/en/full/1567763/obama-trump-white-house-economy-recession.jpg?w=397&h=295&f=dac357c8b22900b2a545e1c3276b0ee5" Obama" />
+          </a>
+          <div class="category">
+            <a href="#">POLITICS</a>
+          </div>
+        </figure>
+        <header>
+          <h3>
+            <a href="#">
+              Trump Responds to Obama's Presidents Day Tweet, Calls It a 'Con
+              Job'
+            </a>
+          </h3>
+          <p>
+            The president attacked his predecessor on Twitter after the latter
+            took credit "for more than a decade of economic growth and the
+            longest streak of job creation in American history."
+          </p>
+        </header>
+      </article>
+      <article>
+        <figure>
+          <a href="#">
+            <img src="https://d.newsweek.com/en/full/1567828/dwyane-wade.jpg?w=397&h=295&f=ee40d4b8636a2cb1a54edd182e3ba4e7" Dwyane Wade" />
+          </a>
+          <div class="category">
+            <a href="#">CULTURE</a>
+          </div>
+        </figure>
+        <header>
+          <h3>
+            <a href="#">
+              Dwyane Wade Talks About Trans Daughter Zaya Coming Out on 'GMA'
+            </a>
+          </h3>
+          <p>
+            Wade and his wife Gabrielle Union recently introduced their
+            daughter on social media and opened up about her gender identity.
+          </p>
+        </header>
+      </article>
+      <article>
+        <figure>
+          <a href="#">
+            <img src="https://d.newsweek.com/en/full/1567805/ohio-university-stock.jpg?w=397&h=295&f=6b2bfcc9916e83d8dcbd179beeb0f76e" Ohio University" />
+          </a>
+          <div class="category">
+            <a href="#">CULTURE</a>
+          </div>
+        </figure>
+        <header>
+          <h3>
+            <a href="#">
+              Vivamus tincidunt turpis nec leo porttitor condimentum.
+            </a>
+          </h3>
+          <p>
+            Vivamus tincidunt turpis nec leo porttitor condimentum. Nulla nec elit a elit semper aliquet. Maecenas ullamcorper efficitur lorem sed molestie.
+          </p>
+        </header>
+      </article>
+      <article>
+        <figure>
+          <a href="#">
+            <img src="https://d.newsweek.com/en/full/1567736/jake-paul.jpg?w=397&h=295&f=23e27c20ab9bcb5b6f4f3e64e17a1359" CULTURE" />
+          </a>
+          <div class="category">
+            <a href="#">Arriety</a>
+          </div>
+        </figure>
+        <header>
+          <h3>
+            <a href="#">
+              Vivamus tincidunt turpis nec leo porttitor condimentum.
+            </a>
+          </h3>
+          <p>
+            Vivamus tincidunt turpis nec leo porttitor condimentum. Nulla nec elit a elit semper aliquet. Maecenas ullamcorper efficitur lorem sed molestie.
+          </p>
+        </header>
+      </article>
+      <article>
+        <figure>
+          <a href="#">
+            <img src="https://d.newsweek.com/en/full/1567778/pink-grasshopper.jpg?w=397&h=295&f=e2b5f4691a7c0d519a48639161d0c21a" Grasshopper" />
+          </a>
+          <div class="category">
+            <a href="#">TECH & SCIENCE</a>
+          </div>
+        </figure>
+        <header>
+          <h3>
+            <a href="#">
+              Rare Bright Pink Grasshopper Discovered in Texas Backyard
+            </a>
+          </h3>
+          <p>
+            Pink grasshoppers rarely make it to adulthood as the coloring,
+            caused by a condition called erythrism, makes them easy targets
+            for predators.
+          </p>
+        </header>
+      </article>
+      <article>
+        <figure>
+          <a href="#">
+            <img src="https://d.newsweek.com/en/full/1567767/bill-nye.jpg?w=397&h=295&f=99157dad7fe9e7998fc9c1de1c2d2421" Bill Nye" />
+          </a>
+          <div class="category">
+            <a href="#">U.S.</a>
+          </div>
+        </figure>
+        <header>
+          <h3>
+            <a href="#">
+              Maecenas ullamcorper efficitur lorem sed molestie.
+            </a>
+          </h3>
+          <p>
+            Vivamus iaculis, quam et ornare eleifend, ipsum tellus convallis urna, non placerat lectus mauris ullamcorper orci. Donec id semper dui. Suspendisse quam sapien, egestas at tellus id, convallis venenatis sem.
+          </p>
+        </header>
+      </article>
+      <article>
+        <figure>
+          <a href="#">
+            <img src="https://d.newsweek.com/en/full/1567749/great-white-shark.jpg?w=397&h=295&f=130e81f9553b7d9a6e9537ab45a85017" Great White Unama'ki" />
+          </a>
+          <div class="category">
+            <a href="#">TECH & SCIENCE</a>
+          </div>
+        </figure>
+        <header>
+          <h3>
+            <a href="#">
+              Massive 2,000-Pound Great White Unama'ki Tracked Off the Florida
+              Coast
+            </a>
+          </h3>
+          <p>
+            Unama'ki has been in the Gulf of Mexico since October and now
+            appears to be inching closer to the Florida coast. Researchers
+            hope she will lead them to a new white shark nursery.
+          </p>
+        </header>
+      </article>
+    </section>
+    <section class="featured-slideshows-section bar">
+      <h2>
+        <div class="icon-wrapper"><i class="icon i-n"></i></div>
+        FEATURED SLIDESHOWS
+      </h2>
+      <article>
+        <figure>
+          <img src="https://d.newsweek.com/en/full/1560097/tozeur-tunisia.jpg?w=397&h=265&f=69a77ef1bd7e21c060a7b7685b05a73d" star wars" />
+          <a class="slideshows-count" href="#">11</a>
+        </figure>
+        <h3>
+          <a href="#">
+            Vivamus iaculis, quam et ornare eleifend.
+          </a>
+        </h3>
+      </article>
+      <article>
+        <figure>
+          <img src="https://d.newsweek.com/en/full/1552749/eyjafjallajokull-iceland.jpg?w=397&h=265&f=ea1ffc67b32c527ef435529cb5bd2dc6" Active Volcanoes" />
+          <a class="slideshows-count" href="#">18</a>
+        </figure>
+        <h3>
+          <a href="#">
+            Donec id semper dui. Suspendisse quam sapien, egestas at tellus id, convallis venenatis sem.
+          </a>
+        </h3>
+      </article>
+      <article>
+        <figure>
+          <img src="https://d.newsweek.com/en/full/1547486/lipschutz-living-room-hotel-chelsea.jpg?w=397&h=265&f=fb4270bf5fbc2591cc43d24d0377621d" Bohemian Apartments" />
+          <a class="slideshows-count" href="#">12</a>
+        </figure>
+        <h3>
+          <a href="#">
+            Donec id semper dui. Suspendisse quam sapien, egestas at tellus id, convallis venenatis sem.
+          </a>
+        </h3>
+      </article>
+      <article>
+        <figure>
+          <img src="https://d.newsweek.com/en/full/1521879/muir-pass-great-alone.jpg?w=397&h=265&f=f340356025a2be1523d3102736a02f42" the Pacific Crest Trail" />
+          <a class="slideshows-count" href="#">7</a>
+        </figure>
+        <h3>
+          <a href="#">
+            Vivamus iaculis, quam et ornare eleifend, ipsum tellus convallis urna, non placerat lectus mauris ullamcorper orci.
+          </a>
+        </h3>
+      </article>
+      <article>
+        <figure>
+          <img src="https://d.newsweek.com/en/full/1521628/galapagos-cerro-brujo.jpg?w=397&h=265&f=238784ea0ecb17e5186615dc6c87822e" the Galapagos" />
+          <a class="slideshows-count" href="#">4</a>
+        </figure>
+        <h3>
+          <a href="#">
+            Crocux fasl flewxeie jfojj eiuoieur fdsoasiu fjalszfju.
+          </a>
+        </h3>
+      </article>
+      <article>
+        <figure>
+          <img src="https://d.newsweek.com/en/full/1521293/still-2-eop.jpg?w=397&h=265&f=c18000449d44d36619eba01997038aec" Bohemian Apartments" />
+          <a class="slideshows-count" href="#">8</a>
+        </figure>
+        <h3>
+          <a href="#">
+            nteger eget dui et metus iaculis finibus non ut augue. Aliquam et risus vitae erat commodo volutpat in in eros.
+          </a>
+        </h3>
+      </article>
+    </section>
+    <section class="categories-section">
+      <section class="category-section">
+        <h2><a href="#">U.S.</a></h2>
+        <div class="primary-category">
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567931/bernie-sanders.jpg?w=397&h=265&f=ea614edc7d961742364883ed02255e96" Justice System" />
+            </figure>
+            <h3>
+              <a href="#">
+                nteger eget dui et metus iaculis finibus non ut augue. Aliquam et risus vitae erat commodo volutpat in in eros.
+              </a>
+            </h3>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567919/bernie-sanders.jpg?w=397&h=265&f=d65611907e37e4deb472d0d50142662c" Nevada Caucuses" />
+            </figure>
+            <h3>
+              <a href="#">
+                nteger eget dui et metus iaculis finibus non ut augue. Aliquam et risus vitae erat commodo volutpat in in eros.
+              </a>
+            </h3>
+          </article>
+        </div>
+        <div class="secondary-category">
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567917/rod-blagojevich.jpg?w=135&h=90&f=d464dbf3b731d069fe4bfc8f67de5ac7" Illinois Republicans" />
+            </figure>
+            <h4>
+              <a href="#">
+                Illinois Republicans Rip Trump for Commuting Blagojevich's
+                Prison Sentence
+              </a>
+            </h4>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567914/bernie-sanders.jpg?w=135&h=90&f=acec54d5cb70392ecc0eb3a72b6d9f39" Sanders Speech" />
+            </figure>
+            <h4>
+              <a href="#">
+                nteger eget dui et metus iaculis finibus non ut augue. Aliquam et risus vitae erat commodo volutpat in in eros.
+              </a>
+            </h4>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567898/kalina-gillum-braden-mull-mugshots.jpg?w=135&h=90&f=2fb11001db870558fa870b59291fcc5d" Ohio Couple" />
+            </figure>
+            <h4>
+              <a href="#">
+                nteger eget dui et metus iaculis finibus non ut augue. Aliquam et risus vitae erat commodo volutpat in in eros.
+              </a>
+            </h4>
+          </article>
+        </div>
+      </section>
+      <section class="category-section">
+        <h2><a href="#">Word</a></h2>
+        <div class="primary-category">
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567834/trinity-college-cambridge.jpg?w=397&h=265&f=e4f14668345b79ef7b523d80db5ec3c1" U.K. University" />
+            </figure>
+            <h3>
+              <a href="#">
+                Climate Change Protesters Dig up Lawn at Prestigious U.K.
+                University
+              </a>
+            </h3>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567809/chinese-tourists-indonesia.jpg?w=397&h=265&f=75eb0cd00d53a58ba7bdedfc0d727096" Indonesia" />
+            </figure>
+            <h3>
+              <a href="#">
+                nteger eget dui et metus iaculis finibus non ut augue. Aliquam et risus vitae erat commodo volutpat in in eros.
+              </a>
+            </h3>
+          </article>
+        </div>
+        <div class="secondary-category">
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567771/k-pop-dreamcatcher-girl-band-paris-2018.jpg?w=135&h=90&f=a77bb60ac0cc46b9ae1fd58c7dcea91a" kpop" />
+            </figure>
+            <h4>
+              <a href="#">
+                nteger eget dui et metus iaculis finibus non ut augue. Aliquam et risus vitae erat commodo volutpat in in eros.
+              </a>
+            </h4>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567700/sean-vanderklis.jpg?w=135&h=90&f=0372381af29b910457e82b4b2e4ca7a3" Protest" />
+            </figure>
+            <h4>
+              <a href="#">
+                nteger eget dui et metus iaculis finibus non ut augue. Aliquam et risus vitae erat commodo volutpat in in eros.
+              </a>
+            </h4>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567683/ms-westerdam-holland-america-line-cambodia-2020.jpg?w=135&h=90&f=ecaae8bb054c9e0e094216e857bfef86" Coronavirus" />
+            </figure>
+            <h4>
+              <a href="#">
+                nteger eget dui et metus iaculis finibus non ut augue. Aliquam et risus vitae erat commodo volutpat in in eros.
+              </a>
+            </h4>
+          </article>
+        </div>
+      </section>
+      <section class="category-section">
+        <h2><a href="#">Business</a></h2>
+        <div class="primary-category">
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567628/chinese-children.jpg?w=397&h=265&f=455995363f0cad8102dc0883489a05c0" Coronavirus Is 'Threatening" />
+            </figure>
+            <h3>
+              <a href="#">
+                nteger eget dui et metus iaculis finibus non ut augue. Aliquam et risus vitae erat commodo volutpat in in eros.
+              </a>
+            </h3>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1164718/ibt-media-twitter.png?w=397&h=265&f=c6ba1c87d0867eb9bff9926d81469793" IBT" />
+            </figure>
+            <h3>
+              <a href="#">
+                nteger eget dui et metus iaculis finibus non ut augue.
+              </a>
+            </h3>
+          </article>
+        </div>
+        <div class="secondary-category">
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567182/per-financial-infidelity.jpg?w=135&h=90&f=be9237df8e968699decc0823ea376279" Keeping Money" />
+            </figure>
+            <h4>
+              <a href="#">
+                Vivamus tincidunt turpis nec leo porttitor condimentum
+              </a>
+            </h4>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1566186/trump-2021-budget-proposal-blasted.jpg?w=135&h=90&f=f0168baca1ddca12738cc0625418641f" Democrats" />
+            </figure>
+            <h4>
+              <a href="#">
+                Vivamus tincidunt turpis nec leo porttitor condimentum
+              </a>
+            </h4>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1566028/birds-prey-box-office.jpg?w=135&h=90&f=8c3d5591a7330115a25b25489fd75617" Birds of Prey" />
+            </figure>
+            <h4>
+              <a href="#">
+                Vivamus tincidunt turpis nec leo porttitor condimentum
+              </a>
+            </h4>
+          </article>
+        </div>
+      </section>
+      <section class="category-section">
+        <h2><a href="#">Tech & Science</a></h2>
+        <div class="primary-category">
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567864/scalloped-hammerhead-shark-galapagos-island.jpg?w=397&h=265&f=5e5ba330b5639b56fe306635ec73fae5" Shark" />
+            </figure>
+            <h3>
+              <a href="#">
+                Shark Filmed Mere Feet Away From North Carolina Surfer
+              </a>
+            </h3>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567875/madjedbebe-australia.jpg?w=397&h=265&f=e8ad6a01dbfa7e399905ba9dd36a9302" Ancient Food" />
+            </figure>
+            <h3>
+              <a href="#">
+                Ancient Food Eaten by Humans 65,000 Years Ago Discovered in
+                Australia
+              </a>
+            </h3>
+          </article>
+        </div>
+        <div class="secondary-category">
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567772/neanderthal-remains-shanidar-cave-iraqi-kurdistan.jpg?w=135&h=90&f=41a38b45bf42b4a88e244d30db71960e" Neanderthal" />
+            </figure>
+            <h4>
+              <a href="#">
+                Neanderthal Remains Uncovered at Famous ' Flower Burial' Site </a> </h4> </article> <article>
+              <figure>
+                <img src="https://d.newsweek.com/en/full/1567670/hurricane-harvey-flooding.jpg?w=135&h=90&f=12a948245678bbf289ec48812c3a5799" Hurricane Harvey" />
+              </figure>
+              <h4>
+                <a href="#">
+                  Hurricane Harvey Was Most Extreme Weather Event to Strike U.S.
+                  Last Decade
+                </a>
+              </h4>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567677/engraved-ocher-plaque.jpg?w=135&h=90&f=fd80b0e47779f59ca99077382767d195" Prehistoric Engravings" />
+            </figure>
+            <h4>
+              <a href="#">
+                Vivamus tincidunt turpis nec leo porttitor condimentum
+              </a>
+            </h4>
+          </article>
+        </div>
+      </section>
+      <section class="category-section">
+        <h2><a href="#">Culture</a></h2>
+        <div class="primary-category">
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567912/ben-affleck-batman.jpg?w=397&h=265&f=6f06501b41b7931ee8884b3b9ec46f17" Batman" />
+            </figure>
+            <h3>
+              <a href="#">
+                Vivamus tincidunt turpis nec leo porttitor condimentum
+              </a>
+            </h3>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567855/pearsons-head-cabin-explosive-this-us-episode.png?w=397&h=265&f=fc702fd6af5b492f8959beeb9ee1bd15" the Pearsons Head to the Cabin" />
+            </figure>
+            <h3>
+              <a href="#">
+                Vivamus tincidunt turpis nec leo porttitor condimentum
+              </a>
+            </h3>
+          </article>
+        </div>
+        <div class="secondary-category">
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567900/paula-white-trump-spiritual-adviser.jpg?w=135&h=90&f=1dc3acc1ba27d69a69f041d0d0a2f982" Trump" />
+            </figure>
+            <h4>
+              <a href="#">
+                Vivamus tincidunt turpis nec leo porttitor condimentum
+              </a>
+            </h4>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1564854/victoria-peter-bachelor.jpg?w=135&h=90&f=adec4ed490539de5c45cba96bf24dbac" Victoria Fuller" />
+            </figure>
+            <h4>
+              <a href="#">
+                'Bachelor' Nation Slams Victoria Fuller, Hometown Date With
+                Peter Weber
+              </a>
+            </h4>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567810/cinderella-castlewalt-disney-world-resort-orlando-2013.jpg?w=135&h=90&f=24d75cb76b5017deba61677b095dd580" Disney" />
+            </figure>
+            <h4>
+              <a href="#">
+                Vivamus tincidunt turpis nec leo porttitor condimentum
+              </a>
+            </h4>
+          </article>
+        </div>
+      </section>
+      <section class="category-section">
+        <h2><a href="#">Sports</a></h2>
+        <div class="primary-category">
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567894/houston-astros.jpg?w=397&h=265&f=f2b3dc02b159a85e139ef858afd42eb6" Astros" />
+            </figure>
+            <h3>
+              <a href="#">
+                Vivamus tincidunt turpis nec leo porttitor condimentum
+              </a>
+            </h3>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567895/aew-dynamite-cody-rhodes-wardlow.jpg?w=397&h=265&l=8&t=31&f=0ebd8f482ec3a227c5aab7e461ee8d6a" AEW" />
+            </figure>
+            <h3>
+              <a href="#">
+                Vivamus tincidunt turpis nec leo porttitor condimentum
+              </a>
+            </h3>
+          </article>
+        </div>
+        <div class="secondary-category">
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567853/denny-hamlin.jpg?w=135&h=90&f=457962a7c59db954feaade9dbbdc34a6" Denny Hamlin" />
+            </figure>
+            <h4>
+              <a href="#">
+                Vivamus tincidunt turpis nec leo porttitor condimentum
+              </a>
+            </h4>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567880/daytona-500.jpg?w=135&h=90&f=fc01f407e021e1e3fde21ad3457867aa" #PrayforNewman" />
+            </figure>
+            <h4>
+              <a href="#">
+                Vivamus tincidunt turpis nec leo porttitor condimentum
+              </a>
+            </h4>
+          </article>
+          <article>
+            <figure>
+              <img src="https://d.newsweek.com/en/full/1567831/joe-burrow-lsu-tigers.jpg?w=135&h=90&f=144082bbe07525d5c1b993f422e91852" Joe Burrow" />
+            </figure>
+            <h4>
+              <a href="#">
+                Vivamus tincidunt turpis nec leo porttitor condimentum
+              </a>
+            </h4>
+          </article>
+        </div>
+      </section>
+    </section>
+  </main>
+  <aside class="subscription-section row mx-0">
+    <section class="subscribe-section bar col-13 col-lg-7 col-xl-8 px-0">
+      <h2>SUBSCRIBE</h2>
+      <article>
+        <div class="group-images">
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1564924/february-14-2020-cover.jpg?w=170&q=95&f=c1d5601167747525a4d15e56749350ec" feature book" />
+          </figure>
+          <figure>
+            <img src="https://d.newsweek.com/en/full/1621252/cover-august-21-28-2020.jpg?w=170&q=95&f=4ae00bbf46b1f7cbfa7c8f3f3791b19e" feature book" />
+          </figure>
+        </div>
+        <header>
+          <h3>
+            Vivamus tincidunt turpis nec leo porttitor condimentum
+          </h3>
+          <p>
+            Vivamus tincidunt turpis nec leo porttitor condimentum. <br />
+            Choose A Membership That's Perfect for You!
+          </p>
+          <a href="#">SUBSCRIBE
+            <i class="icon i-right-arrow"></i>
+          </a>
+        </header>
+      </article>
+    </section>
+    <section class="sign-up-section bar col-13 col-lg-5 col-xl-4 px-0">
+      <h2>NEWSLETTER</h2>
+      <article>
+        <figure>
+          <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" feature book" />
+        </figure>
+        <header>
+          <h3>The Starting 5</h3>
+          <p>
+            Take back your inbox. Sign up for our newsletter and start making
+            sense of the world around you.
+          </p>
+          <a href="#">SIGN UP <i class="icon i-right-arrow"></i></a>
+        </header>
+      </article>
+    </section>
+  </aside>
+  <footer class="main-footer bar container">
+    <div class="social-group d-md-flex align-items-end justify-content-between">
+      <div class="d-md-flex align-items-end">
+        <svg class="logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" xml:space="preserve">
+          <g>
+            <path d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2   L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11 c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6   H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13   c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8   c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2   C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7  h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4    c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1  c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6    c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6   C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5 h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9    c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2    c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9  C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1   c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6    v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3  c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5    h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+          </g>
+        </svg>
+        <p class="copyright">© 2020 NEWSWEEK</p>
+      </div>
+      <ul class="footer-social-links px-0">
+        <li>
+          <a href="#" class="fi-facebook"></a>
+        </li>
+        <li>
+          <a href="#" class="fi-twitter"></a>
+        </li>
+        <li>
+          <a href="#" class="fi-instagram"></a>
+        </li>
+        <li>
+          <a href="#" class="fi-tumblr"></a>
+        </li>
+        <li>
+          <a href="#" class="fi-linkedin"></a>
+        </li>
+      </ul>
+    </div>
+    <div class="editions-container">
+      <strong><span>Editions:</span></strong>
+      <ul>
+        <li><a href="#">U.S. Edition</a></li>
+        <li><a href="#">日本</a></li>
+        <li><a href="#">Pakistan</a></li>
+        <li><a href="#">Polska</a></li>
+        <li><a href="#">România</a></li>
+      </ul>
+    </div>
+    <ul class="footer-links">
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Corrections</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Editorial Guidelines</a></li>
+      <li><a href="#">Advertise</a></li>
+      <li><a href="#">Copyright</a></li>
+      <li><a href="#">Terms & Conditions</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Cookie Policy</a></li>
+      <li><a href="#">Terms of Sale</a></li>
+      <li><a href="#">Archive</a></li>
+      <li><a href="#">Announcements</a></li>
+      <li><a href="#">Consent preferences</a></li>
+    </ul>
+  </footer>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
